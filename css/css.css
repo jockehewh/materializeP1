@@ -1,0 +1,228 @@
+html, body{
+  height:100%;
+  background-color: #000;
+}
+.supermain{
+height:100% !important;
+}
+.tab1{
+  background-image: url('../img/sunset.jpg');
+  height:100% !important;
+  background-size: 100% 100%;
+}
+.tab2{
+  background-image: url('../img/lumieres.jpg');
+  height:100% !important;
+  background-size: 100% 100%;
+}
+.tab3{
+  background-image: url('../img/lion.jpg');
+  height:100% !important;
+  background-size: 100% 100%;
+}
+.tab4{
+  background-image: url('../img/planete.jpg');
+  height:100% !important;
+  background-size: 100% 100%;
+}
+.tab5{
+  background-image: url('../img/volcan.jpg');
+  height:100% !important;
+  background-size: 100% 100%;
+}
+.tab6{
+  background-image: url('../img/cosmos71.png');
+  height:100% !important;
+  background-size: 100% 100%;
+}
+.tab7{
+  background-image: url('../img/peluches.jpg');
+  height:100% !important;
+  background-size: 100% 100%;
+}
+nav{
+  position:relative;
+  top:20px;
+  background-color: #000 !important;
+  height: 80px !important;
+}
+.waves-effect.waves-indigo .waves-ripple {
+     /* The alpha value allows the text and background color
+     of the button to still show through. */
+      background-color: rgba(63, 81, 181, 0.65);
+}
+@keyframes rotate {
+  0% {transform: rotate(0deg);}
+  100% {transform: rotate(360deg);}
+}
+@-webkit-keyframes rotate {
+  0% {-webkit-transform: rotate(0deg);}
+  100% {-webkit-transform: rotate(360deg);}
+}
+.rotor{
+  height: 65.5px;
+    width: 65.5px;
+    border-top: 2.5px solid #3f51b5;
+    background: transparent;
+    border-radius: 50%;
+    z-index: 0;
+position: relative;
+top: -54.5px;
+left: 0.5px;
+animation: rotate 2s linear infinite;
+-webkit-animation: rotate 2s linear infinite;
+}
+.btn-floating.btn-large{
+  height:65.5px !important;
+  width:65.5px !important;
+}
+.menu{
+  position: relative;
+    top: 7px;
+    left:50%;
+    margin-left:-280px;
+}
+.menu a{
+  margin:0 5px;
+}
+.tab1stock{
+  position:fixed;
+  top:0;
+  left:0;
+  height: 150px;
+  width: 150px;
+}
+.metacontainer{height:100%;}
+/*.row{height:50%;}*/
+.fixedcontent{
+  position:fixed !important;
+  top:0;
+  z-index: 1004;
+}
+.fixedfixer{
+z-index: 25 !important;
+}
+.fixedlayout1 .row{
+    height:88%;
+}
+.fixedlayout2 .row{
+  height:44%;
+  text-align:center;
+}
+.fixedlayout3{
+  margin:0;
+}
+.fixedlayout3 .row, .fixedlayout3 .col{
+  box-sizing: unset !important;
+  padding:0 !important;
+}
+.fixedlayout3 .row2{
+  height:50%;
+}
+.fixedlayout3 iframe{
+  margin-left:10%;
+}
+.fixedlayout3 .colzs4{
+margin-left:0 !important;
+}
+.hex-wrapper{
+  display:inline-block;
+}
+.hex-row{
+  clear:left;
+}
+.shift{
+  margin-left:49px;
+}
+.hexagon{
+  float:left;
+  position:relative;
+  margin:15px 1.5px;
+  width:95px;
+  height:55px;
+  background-color:#ccc;
+  background-position:center center;
+  z-index-1;
+  /*Text Styling*/
+  line-height:55px;
+  text-align:center;
+  color:#000;
+  color: rgba(0,0,0,0.5);
+  cursor:pointer;
+}
+.hexagon .face1, .hexagon .face2{
+  position:absolute;
+  top:0;
+  left:0px;
+  width:100%;
+  height:100%;
+  overflow: hidden;
+  background: inherit;
+  z-index:-1;
+  backface-visibility: hidden;
+}
+.hexagon .face1:before, .hexagon .face2:before{
+  content: '';
+  position: absolute;
+  width: 110px;
+  height: 110px;
+  background: inherit;
+}
+.hexagon .face1{
+  transform: rotate(60deg);
+}
+.hexagon .face1:before{
+  left:0;
+  transform-origin: left top;
+  transform:rotate(-60deg) translate(-55px, 0);
+}
+.hexagon .face2{
+  transform: rotate(-60deg);
+}
+.hexagon .face2:before{
+  left:0;
+  transform-origin: left top;
+  transform:rotate(60deg) translate(55px, 0);
+}
+@keyframes tourne {
+  from{transform: rotate(0deg);}
+  to{transform:rotate(360deg);}
+}
+@keyframes tournez {
+  from{transform: rotate(0deg);}
+  to{transform:rotate(-360deg);}
+}
+.lean-overlay{
+  display:none !important;
+}
+.fixedlayout4{
+  z-index: 5 !important;
+}
+.fixedlayout4 ul li{
+  animation-name: tournez;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.fixedlayout4 .roulette{
+  height:8em;
+  width:8em;
+  border-radius:50%;
+  position:relative;
+  left:14vw;
+  top:19.7vh;
+  animation-name: tourne;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+.fixedlayout4 .modal{
+  left: 55% !important;
+  width: 30% !important;
+}
+.fixedlayout4 .modaltrick{
+  left:-66% !important;
+}
+.fixedlayout5{}
+.fixedlayout6{}
+.fixedlayout7{}

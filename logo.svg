@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" height="150" width="100">
+  <rect width="98" height="98" x="1" y="1" stroke-width='3' stroke='black' fill='none'/>/>
+  <line x1="1" x2="99" y1="99" y2="99" stroke-width='2' stroke='black'></line>
+  <line x1="99" y1="99" x2="50" y2="1" stroke-width='2' stroke='black'></line>
+  <line x1="50" y1="1" x2="1" y2="99" stroke-width='2' stroke='black'></line>
+  <circle r="25.5" cx="50" cy="69" stroke-width='2' stroke='black' fill='none'/>
+  <text x="41" y="72">X5</text>
+</svg>
